@@ -1,4 +1,5 @@
-const router = require("express").Router
+const express = require('express')
+const router = express.Router()
 const movieController = require("../controllers/movies")
 
 router.post("/addMovie", movieController.postCreateMovie)

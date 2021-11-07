@@ -1,11 +1,10 @@
-const movies = require("../models/movies");
 const Movie = require("../models/movies")
 
 exports.postCreateMovie = async(req,res)=>{
-    const card = new Movie(req.body);
+    const movie = new Movie(req.body);
     try{
-        await card.save()
-        console.log(card)
+        await movie.save()
+        console.log(movie)
         console.log("Movie registered")
     } catch(err) {
         console.log(err)
