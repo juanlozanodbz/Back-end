@@ -1,6 +1,7 @@
 ## BACK-END
 
 Este es un proyecto para realizar el back-end para realizar playlists de películas (título, año, director, duración, clasificación) y museos (nombre, ubicación, descripción) con operaciones CRUD.
+----
 
 ### 1.1 Add Movie
 
