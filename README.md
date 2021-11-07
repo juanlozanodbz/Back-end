@@ -10,6 +10,7 @@ Este endpoint se usa para agregar alguna película a la base de datos
 * errores: 
 
 | Código | Mensaje | HTTP |
+| ------------- | ------------- | ------------- |
 | MovieAlredyExists | This movie already exists | 422 |
 
 * response: HTTP status 200
