@@ -14,6 +14,23 @@ Este endpoint se usa para agregar alguna película a la base de datos
 
 | Código | Mensaje | HTTP |
 | ------------- | ------------- | ------------- |
+| InvalidBodyException | Field must be string | 422 |
+| InvalidBodyException | Title must be between 5 and 50 characters | 422 |
+| InvalidBodyException | Description must be between 50 and 250 characters | 422 |
+
+* response: HTTP status 200
+
+----
+
+### 1.2 Read Movie
+
+Este endpoint se usa para visualizar alguna película a la base de datos
+* endpoint: `/readMovie`
+* método: `READ`
+* errores: 
+
+| Código | Mensaje | HTTP |
+| ------------- | ------------- | ------------- |
 | MovieAlredyExists | This movie already exists | 422 |
 
 * response: HTTP status 200
