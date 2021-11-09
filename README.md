@@ -1,5 +1,6 @@
 ## BACK-END
 Juan Lozano Derbez
+
 Rodrigo Cravioto Caballero
 
 Este es un proyecto para realizar el back-end para realizar playlists de películas (título, año, director, duración, clasificación) y museos (nombre, ubicación, descripción) con operaciones CRUD.
