@@ -31,7 +31,7 @@ Este endpoint se usa para visualizar alguna película a la base de datos
 
 | Código | Mensaje | HTTP |
 | ------------- | ------------- | ------------- |
-| MovieAlredyExists | This movie already exists | 422 |
+| Forbidden | | 403 |
 
 * response: HTTP status 200
 
